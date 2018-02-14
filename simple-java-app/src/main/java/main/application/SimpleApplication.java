@@ -26,6 +26,10 @@ public class SimpleApplication {
 		}
 		
 		
+		simpleCLI simpleCLI = new simpleCLI();
+		
+		simpleCLI.commandLoop();
+		
 		System.out.println("Simple Java Application ended.");
 	
 
